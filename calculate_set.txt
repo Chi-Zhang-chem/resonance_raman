@@ -1,0 +1,10 @@
+mem= 150GB /set memory needed here
+nproc= 28 /set CPU numbers needed here
+method= BP86 /set calculate method here such as B3LYP, M06-2X, B3LYP em=gd3bj...
+basis_set= def2TZVP / set basis_set here such as 6-311g, def2-SVP...
+scrf=(SMD, solvent=Ethanol) / set solvent model here 
+charge and spin multiplicity = 1 1/ the first term is charge so the next is spin multiplicity
+
+WARNING!!! All () after '=' in this text can not be removed.
+WARNING!!! Do not change string before first '=' every line.
+ 

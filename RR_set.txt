@@ -1,0 +1,9 @@
+Spectroscopy=RR /select resonance raman spectrum
+Spectrum=(Lower=400.,Upper=1700.,Broadening=Lorentzian) /set spectrum x range and how to broad(stick, gaussain, lorentzian)
+RR=(OmegaMin=17800,OmegaMax=18000,OmegaStep=20) /set incident light energy range in cm-1
+Intermediate=Source=Chk /Get second state data from checkpoint file (named below) 
+TD=(2NSTEP=12,2NSTEPWIN=12,GauHWHM=100) /hard to understand... the parameters are set for resonance raman you do not have to change these variable
+Print=(Tensors,Matrix=JK) /print tensors and exchange-correlation matrix
+
+WARNING!!! All () after '=' in this text can not be removed.
+WARNING!!! Do not change string before first '=' every line.
